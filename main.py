@@ -14,9 +14,9 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("slbot")
 
 # ---------- CONFIG (set these as environment variables on Render) ----------
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY")  # use the service_role key (server only!)
+BOT_TOKEN = os.environ.get(9260808399:AAEJWd0VvQAqnljG66k3DO4LYh4f2IFtDlY)
+SUPABASE_URL = os.environ.get("https://udnchnjweynrsosjicwh.supabase.co/")
+SUPABASE_KEY = os.environ.get("sb_publishable_fOD7ZcqobFe0dFQbDEoaYg__3YKgU0Y")  # use the service_role key (server only!)
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
 
 missing = [n for n, v in [("BOT_TOKEN", BOT_TOKEN),
